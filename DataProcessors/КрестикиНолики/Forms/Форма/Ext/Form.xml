@@ -1,0 +1,163 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Form xmlns="http://v8.1c.ru/8.3/xcf/logform" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcssch="http://v8.1c.ru/8.1/data-composition-system/schema" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.13">
+	<Title>
+		<v8:item>
+			<v8:lang>ru</v8:lang>
+			<v8:content>  </v8:content>
+		</v8:item>
+	</Title>
+	<AutoCommandBar name="ФормаКоманднаяПанель" id="-1"/>
+	<Events>
+		<Event name="OnOpen">ПриОткрытии</Event>
+	</Events>
+	<ChildItems>
+		<UsualGroup name="Группа1" id="19">
+			<Group>AlwaysHorizontal</Group>
+			<Representation>None</Representation>
+			<ShowTitle>false</ShowTitle>
+			<ExtendedTooltip name="Группа1РасширеннаяПодсказка" id="20"/>
+			<ChildItems>
+				<Button name="Кнопка00" id="1">
+					<Type>UsualButton</Type>
+					<CommandName>Form.Command.НажатиеНаКнопку</CommandName>
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content> </v8:content>
+						</v8:item>
+					</Title>
+					<ExtendedTooltip name="Кнопка00РасширеннаяПодсказка" id="2"/>
+				</Button>
+				<Button name="Кнопка01" id="3">
+					<Type>UsualButton</Type>
+					<CommandName>Form.Command.НажатиеНаКнопку</CommandName>
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content> </v8:content>
+						</v8:item>
+					</Title>
+					<ExtendedTooltip name="Кнопка01РасширеннаяПодсказка" id="4"/>
+				</Button>
+				<Button name="Кнопка02" id="5">
+					<Type>UsualButton</Type>
+					<CommandName>Form.Command.НажатиеНаКнопку</CommandName>
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content> </v8:content>
+						</v8:item>
+					</Title>
+					<ExtendedTooltip name="Кнопка02РасширеннаяПодсказка" id="6"/>
+				</Button>
+			</ChildItems>
+		</UsualGroup>
+		<UsualGroup name="Группа2" id="21">
+			<Group>AlwaysHorizontal</Group>
+			<Representation>None</Representation>
+			<ShowTitle>false</ShowTitle>
+			<ExtendedTooltip name="Группа2РасширеннаяПодсказка" id="22"/>
+			<ChildItems>
+				<Button name="Кнопка10" id="7">
+					<Type>UsualButton</Type>
+					<CommandName>Form.Command.НажатиеНаКнопку</CommandName>
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content> </v8:content>
+						</v8:item>
+					</Title>
+					<ExtendedTooltip name="Кнопка10РасширеннаяПодсказка" id="8"/>
+				</Button>
+				<Button name="Кнопка11" id="9">
+					<Type>UsualButton</Type>
+					<CommandName>Form.Command.НажатиеНаКнопку</CommandName>
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content> </v8:content>
+						</v8:item>
+					</Title>
+					<ExtendedTooltip name="Кнопка11РасширеннаяПодсказка" id="10"/>
+				</Button>
+				<Button name="Кнопка12" id="11">
+					<Type>UsualButton</Type>
+					<CommandName>Form.Command.НажатиеНаКнопку</CommandName>
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content> </v8:content>
+						</v8:item>
+					</Title>
+					<ExtendedTooltip name="Кнопка12РасширеннаяПодсказка" id="12"/>
+				</Button>
+			</ChildItems>
+		</UsualGroup>
+		<UsualGroup name="Группа3" id="23">
+			<Group>AlwaysHorizontal</Group>
+			<Representation>None</Representation>
+			<ShowTitle>false</ShowTitle>
+			<ExtendedTooltip name="Группа3РасширеннаяПодсказка" id="24"/>
+			<ChildItems>
+				<Button name="Кнопка20" id="13">
+					<Type>UsualButton</Type>
+					<CommandName>Form.Command.НажатиеНаКнопку</CommandName>
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content> </v8:content>
+						</v8:item>
+					</Title>
+					<ExtendedTooltip name="Кнопка20РасширеннаяПодсказка" id="14"/>
+				</Button>
+				<Button name="Кнопка21" id="15">
+					<Type>UsualButton</Type>
+					<CommandName>Form.Command.НажатиеНаКнопку</CommandName>
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content> </v8:content>
+						</v8:item>
+					</Title>
+					<ExtendedTooltip name="Кнопка21РасширеннаяПодсказка" id="16"/>
+				</Button>
+				<Button name="Кнопка22" id="17">
+					<Type>UsualButton</Type>
+					<CommandName>Form.Command.НажатиеНаКнопку</CommandName>
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content> </v8:content>
+						</v8:item>
+					</Title>
+					<ExtendedTooltip name="Кнопка22РасширеннаяПодсказка" id="18"/>
+				</Button>
+			</ChildItems>
+		</UsualGroup>
+	</ChildItems>
+	<Attributes>
+		<Attribute name="Объект" id="1">
+			<Type>
+				<v8:Type>cfg:DataProcessorObject.КрестикиНолики</v8:Type>
+			</Type>
+			<MainAttribute>true</MainAttribute>
+		</Attribute>
+	</Attributes>
+	<Commands>
+		<Command name="НажатиеНаКнопку" id="1">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Нажатие на кнопку</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Нажатие на кнопку</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Action>НажатиеНаКнопку</Action>
+		</Command>
+	</Commands>
+</Form>
